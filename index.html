@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>google homepage</title>
+    <style type="text/css">
+     *{
+       box-sizing: border-box;
+       background-color: none;
+       padding: 0;
+       margin: 0;
+     }
+    .main{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100vh;
+    }
+    body{
+      color: #000;
+      font-family: sans-serif;
+      font-size: 13px;
+      margin: 0; 
+    }
+    a{
+      text-decoration: none;
+      color: #669;
+    }
+    a:hover{
+      text-decoration: underline;
+      color: blue; 
+    }
+    .nav-bar{
+      display: flex;
+      justify-content: flex-end;
+      margin: 20px
+    }
+    .nav-bar span{
+      margin: 0 10px; 
+    } 
+
+    button{
+      padding: 8px 25px;
+      background-color: rgb(198, 229, 236);
+      border: none;
+      border-radius: 70px;
+    }
+    button:hover{
+      text-decoration: none;
+      color: blue;
+    }
+
+    .search{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       color: #FFF;
+       font-weight: bold;
+       margin-top: 90px;
+    }
+    input{
+      height: 40px;
+      border-top: 1.5px solide #efefef;
+      border-left: 1.5px solide #efefef;
+      border-right: 1.5px solide #efefef;
+      border-bottom: 1.5px solide #efefef;
+      padding: 11px;
+      box-shadow: 0 1.5px 2.3px grey;
+      margin: 37px 0;
+      width: 410px;
+      }
+      input:hover, input:active{
+        box-shadow: 0 1px 5px grey;
+      }
+      .search span a{
+        background: #f2f2f1;
+        text-align: center;
+        margin: 5px;
+        padding: 11px;
+        border-radius: 15px;
+      }
+      .search span a:hover{
+        text-decoration: none;
+        font-weight: bold;
+        border:solide 1px #FF0;
+        color: blue;
+      }
+      .footer{
+        background: #f2f2f2;
+        border-top: #dfdfdf;
+        margin-top: 35px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .footer a{
+        margin: 10px; 
+      }
+      .left{
+        padding-left: 30px;
+      }
+      .right{
+        padding-right: 30px;
+      }
+      </style>
+    </head>
+  <head>
+    <meta charset="utf-8">
+    <title>google</title>
+    <link rel="stylesheet" href="/css/master.css">
+    <script>src="https://use.fontawesome.com/ddde7c70b6.js"</script>
+    <link href="https://fonts.googleapis.com/css?family=roboto:300,400" rel="stylesheet">
+  <body>
+    <div class="main">
+      <div class="nav-bar">
+        <div class="">
+          <span ><a href="#">Gmail</a></span>
+          <span ><a href="#">Images</a></span>
+          <span ><a href="#">Menu</a></span>
+          <span ><a href="#"><button>Sign in</button></a></span>
+        </div>
+      </div>
+      <div class="search">
+      <div>
+      <img src="download.png">
+        </div>
+    <div>
+    <input type="text" name="" Value="">
+    </div>
+    <div>
+    <span><a href="#">Google Search</a></span>
+    <span><a href="#">Mbave's Feeling Lucky</a></span>
+      </div>
+      </div>
+  <div class="footer">
+    <div class="left">
+      <span><a href="#">Advertising</a></span>
+      <span><a href="#">Business</a></span>
+      <span><a href="#">About Mbave</a></span>
+      <span><a href="#">How Search Works</a></span>
+      </div>
+    <div class="right">
+      <span><a href="#">Privacy</a></span>
+      <span><a href="#">Terms</a></span>
+      <span><a href="#">Settings</a></span>
+      </div>
+    </div>
+    </div>
+
+  </body>
+</html>
